@@ -1,0 +1,191 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/*HEADER*/
+
+#bg img{
+    width: 100%;
+    height:100%;
+    position: fixed;
+    /*background-attachment:scroll;*/
+    /*position:relative;*/
+    min-width: 100%;
+    min-height: 100%;
+    top: 0; 
+    left: 0; 
+
+  }
+
+#header{
+    text-align:center;
+}
+#header h1{
+    position:absolute;
+    margin-top:70px;
+    
+}
+
+#header h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    /*margin-top: -638px;*/
+    width:100%;
+    position:absolute;
+}
+
+#header span{
+    color:darkgray;
+    position: absolute;
+    margin-top:125px;
+    margin-left:-49px;
+}
+
+/*CONTENU PRINCIPAL*/
+
+#inner{
+    padding: 20px 0px;
+    /*background-color:red;*/
+    position: absolute;
+    margin-top:250px;
+    width:100%;
+}
+
+/*WRAP1*/
+
+#banner img{
+    width:841px;
+}
+
+.presentation{
+    background-color: white;
+    padding: 60px;
+    margin-top: -6px;
+    width: 721px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.presentation h2{
+    font-size:30px;
+}
+
+.presentation hr{
+    
+    width: 143px;
+    margin: 10px auto;
+}
+
+#description{
+    background-color: #f4f2f2;
+    width: 841px;
+    margin-top: -1px;
+    height:426px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#description p{
+    padding: 40px 70px 0 70px;
+}
+
+#doublewrap{
+    background-color: #303030;
+    width: 842px;
+    height:1562px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*WRAP2*/
+
+#wrap2{
+    padding-top:80px;
+}
+
+#wrap2 .presentation{
+    background-color:black;
+    width: 574px;
+    
+}
+#wrap2 .presentation h2{
+    color:white;
+
+}
+
+#wrap2 .presentation h3{
+    color:darkgray
+}
+
+#grid{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    width: 705px;
+    margin-left: 68px;
+}
+
+#grid img{
+    width:350px;
+}
+
+/*WRAP3*/
+
+#wrap3{
+    margin-top :80px;
+    margin-bottom:80px;
+}
+
+.txt_img{
+    display:flex;
+    margin-left:69px;
+}
+
+.img_left img, .img_right img{
+    margin-bottom:-6px;
+}
+
+.img_right img{
+    width:376px;
+}
+
+.right{
+    background-color:white;
+    width: 337px;
+    padding: 20px;
+    height: 200px;
+}
+
+.right h2{
+    color:black;
+}
+
+.right p{
+    color:darkgray;
+    margin-top:20px;
+}
+
+.left{
+    background-color:#303030;
+    width: 281px;
+    padding: 20px;
+    height: 200px;
+}
+
+.left h2{
+    color:white;
+}
+
+.left p{
+    color:darkgray;
+    margin-top:20px;
+}
+
+/*FOOTER*/
+
+#logo ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 60px;
+}
